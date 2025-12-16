@@ -1,0 +1,92 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyTorch
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
+# Virtual Environment
+venv/
+ENV/
+env/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Data and Results
+data/
+datasets/
+results/
+outputs/
+sampled_images/
+samples/
+tmp/
+ckpt/
+checkpoints/
+pretrained_models/
+
+# Large Files
+*.pb
+*.csv
+*.npz
+*.npy
+
+# Logs
+*.log
+logs/
+wandb/
+*.out
+debug.log
+
+# Images and Visualizations
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.svg
+
+# Model-specific
+smoothquant/results/
+smoothquant/*.pt
+smoothquant/*.pth
+low_rank/results/
+low_rank/*.pt
+low_rank/*.pth
+
+# Temporary files
+*.tmp
+.cache/
